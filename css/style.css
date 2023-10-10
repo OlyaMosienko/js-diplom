@@ -4772,3 +4772,17 @@ section {
 		background-position: center;
 	}
 }
+
+.tab-item {
+	cursor: pointer;
+}
+.single-menu .tab-item {
+	color: #000;
+	transition: .2s;
+}
+.tab-item:hover, .single-menu .tab-item:hover {
+	color: #C19D60;
+}
+.tab-item.current, .single-menu .tab-item.current {
+	color: #C19D60;
+}
