@@ -4787,3 +4787,10 @@ section {
 .tab-item.current, .single-menu .tab-item.current {
 	color: #C19D60;
 }
+
+/* .swiper-wrapper {
+	display: block;
+}
+.testi-item.active.swiper-slide {
+	padding: 30px 0;
+} */
