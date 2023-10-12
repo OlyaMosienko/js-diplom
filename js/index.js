@@ -48,6 +48,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
         }
         slide.forEach(item => item.style.display = 'none');
         slide[slideIndex - 1].style.display = 'block';
+        slide[slideIndex - 1].style.left = `-${[slideIndex - 1]}00%`;
     }
 
     function plusSlide(n) {
